@@ -140,14 +140,16 @@ export default function Page() {
         </div>
         <div className="flex h-full w-full items-center justify-center">
           <div className="flex w-[calc(100vw-200px-300px)] flex-col gap-8 border-r border-input">
-            <div className="m-4 h-100 w-150 rounded-xl border border-input"></div>
-            <div className="flex gap-4">
-              <Button className="" variant={"outline"}>
-                Play Video
-              </Button>
-              <Button className="" variant={"outline"}>
-                Download Video
-              </Button>
+            <div className="m-4">
+              <div className="h-100 w-150 rounded-xl border border-input"></div>
+              <div className="flex gap-4">
+                <Button className="" variant={"outline"}>
+                  Play Video
+                </Button>
+                <Button className="" variant={"outline"}>
+                  Download Video
+                </Button>
+              </div>
             </div>
           </div>
         </div>
