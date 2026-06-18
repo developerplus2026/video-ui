@@ -29,16 +29,17 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
 import { Input } from "@/components/ui/input"
+import { EmptyUI } from "@/components/ui-system/empty-ui"
 export default function Page() {
   return (
     <div className="flex h-screen w-screen items-center justify-center p-6">
-      <div className="h-[calc(100vh-80px)] w-[calc(100vw-200px)] rounded-xl border border-input bg-[#0c0c0c]">
+      <div className="flex h-[calc(100vh-80px)] w-[calc(100vw-200px)] flex-col justify-between rounded-xl border border-input bg-[#0c0c0c]">
         <div className="flex h-15 w-full items-center justify-between border-b border-input p-6">
           <div className="flex flex-col">
-            <p className="text-md">
+            <p className="text-sm">
               A modern video window is under development.
             </p>
-            <p className="text-sm text-[#a1a1a1]">
+            <p className="text-xs text-[#a1a1a1]">
               It will be released soon on July 6, 2026.
             </p>
           </div>
@@ -48,7 +49,7 @@ export default function Page() {
               <InputGroupAddon>
                 <HugeiconsIcon icon={Search} size={"30"} strokeWidth={2} />
               </InputGroupAddon>
-              <InputGroupAddon align="inline-end">12 results</InputGroupAddon>
+              <InputGroupAddon align="inline-end"></InputGroupAddon>
             </InputGroup>
           </div>
           <div className="flex items-center gap-4">
@@ -122,6 +123,9 @@ export default function Page() {
             </DropdownMenu>
           </div>
         </div>
+      </div>
+      <div className="flex h-full w-full items-center justify-center">
+        <EmptyUI />
       </div>
     </div>
   )
