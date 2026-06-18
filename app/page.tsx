@@ -139,7 +139,7 @@ export default function Page() {
           </div>
         </div>
         <div className="flex h-full w-full items-center justify-center">
-          <SidebarProvider>
+          {/* <SidebarProvider>
             <AppSidebar />
             <SidebarInset>
               <header className="flex h-16 shrink-0 items-center gap-2">
@@ -165,10 +165,11 @@ export default function Page() {
                 </div>
               </header>
               <div>
-                <EmptyUI />
+               
               </div>
             </SidebarInset>
-          </SidebarProvider>
+          </SidebarProvider> */}
+          <EmptyUI />
         </div>
       </div>
     </div>
