@@ -19,11 +19,11 @@ export default function Page() {
   return (
     <div className="flex justify-center items-center  h-screen w-screen p-6">
       <div className="w-[calc(100vw-200px)] border border-input rounded-xl bg-[#0c0c0c] h-[calc(100vh-80px)]  ">
-<div className="h-15 w-full border-b flex justify-end items-center border-input ">
+<div className="h-15 w-full border-b flex justify-end items-center p-6 border-input ">
   
   <DropdownMenu>
       <DropdownMenuTrigger asChild>
-        <Button variant="ghost" size={'icon-lg'}><HugeiconsIcon icon={Setting07Icon} strokeWidth={2} /></Button>
+        <Button variant="ghost" size={'icon-lg'}><HugeiconsIcon icon={Setting07Icon} size={'30'} strokeWidth={2} /></Button>
       </DropdownMenuTrigger>
       <DropdownMenuContent className="w-40" align="end">
         <DropdownMenuGroup>
