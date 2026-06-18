@@ -138,15 +138,15 @@ export default function Page() {
             </DropdownMenu>
           </div>
         </div>
-        <div className="flex h-full w-full items-center justify-center p-4">
-          <div className="flex w-[calc(100vw-200px-100px)] flex-col gap-8 border-l border-input">
+        <div className="flex h-full w-full items-center justify-center">
+          <div className="flex w-[calc(100vw-200px-100px)] flex-col gap-8 border-r border-input p-4">
             <div className="h-100 w-150 rounded-xl border border-input"></div>
             <div className="flex gap-4">
               <Button className="" variant={"outline"}>
-                Getting Started
+                Play Video
               </Button>
               <Button className="" variant={"outline"}>
-                Contact Sale
+                Download Video
               </Button>
             </div>
           </div>
