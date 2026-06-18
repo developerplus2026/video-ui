@@ -138,38 +138,18 @@ export default function Page() {
             </DropdownMenu>
           </div>
         </div>
-        <div className="flex h-full w-full items-center justify-center">
-          {/* <SidebarProvider>
-            <AppSidebar />
-            <SidebarInset>
-              <header className="flex h-16 shrink-0 items-center gap-2">
-                <div className="flex items-center gap-2 px-4">
-                  <SidebarTrigger className="-ml-1" />
-                  <Separator
-                    orientation="vertical"
-                    className="mr-2 data-[orientation=vertical]:h-4"
-                  />
-                  <Breadcrumb>
-                    <BreadcrumbList>
-                      <BreadcrumbItem className="hidden md:block">
-                        <BreadcrumbLink href="#">
-                          Build Your Application
-                        </BreadcrumbLink>
-                      </BreadcrumbItem>
-                      <BreadcrumbSeparator className="hidden md:block" />
-                      <BreadcrumbItem>
-                        <BreadcrumbPage>Data Fetching</BreadcrumbPage>
-                      </BreadcrumbItem>
-                    </BreadcrumbList>
-                  </Breadcrumb>
-                </div>
-              </header>
-              <div>
-               
-              </div>
-            </SidebarInset>
-          </SidebarProvider> */}
-          <EmptyUI />
+        <div className="flex h-full w-full items-center justify-center p-4">
+          <div className="flex w-[calc(100vw-200px-100px)] flex-col gap-8 border-l border-input">
+            <div className="h-100 w-150 rounded-xl border border-input"></div>
+            <div className="flex gap-4">
+              <Button className="" variant={"outline"}>
+                Getting Started
+              </Button>
+              <Button className="" variant={"outline"}>
+                Contact Sale
+              </Button>
+            </div>
+          </div>
         </div>
       </div>
     </div>
