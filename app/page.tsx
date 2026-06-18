@@ -123,9 +123,9 @@ export default function Page() {
             </DropdownMenu>
           </div>
         </div>
-      </div>
-      <div className="flex h-full w-full items-center justify-center">
-        <EmptyUI />
+        <div className="flex h-full w-full items-center justify-center">
+          <EmptyUI />
+        </div>
       </div>
     </div>
   )
