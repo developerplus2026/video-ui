@@ -27,10 +27,9 @@ export default function Page() {
           <div className="flex items-center gap-4">
 <Button className="" variant={'outline'}>Getting Started</Button>
 <Button className="" variant={'outline'}>Contact Sale</Button>
-          </div>
-          <DropdownMenu>
+<DropdownMenu>
             <DropdownMenuTrigger asChild>
-              <Button variant="ghost" className="size-1.5" size={'icon-lg'}><HugeiconsIcon icon={User02FreeIcons} size={'30'} strokeWidth={2} /></Button>
+              <Button variant="ghost" size={'icon-lg'}><HugeiconsIcon icon={User02FreeIcons} size={'30'} strokeWidth={2} /></Button>
             </DropdownMenuTrigger>
             <DropdownMenuContent className="w-40" align="end">
               <DropdownMenuGroup>
@@ -82,6 +81,8 @@ export default function Page() {
               </DropdownMenuGroup>
             </DropdownMenuContent>
           </DropdownMenu>
+          </div>
+          
         </div>
       </div>
     </div>
