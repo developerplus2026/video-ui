@@ -139,8 +139,8 @@ export default function Page() {
           </div>
         </div>
         <div className="flex h-full w-full items-center justify-center">
-          <div className="flex h-full w-[calc(100vw-200px-100px)] flex-col items-center gap-8 border-r border-input">
-            <div className="m-4">
+          <div className="flex h-full w-[calc(100vw-200px-400px)] flex-col items-center border-r border-input">
+            <div className="m-4 flex flex-col gap-4">
               <div className="h-100 w-150 rounded-xl border border-input"></div>
               <div className="flex gap-4">
                 <Button className="" variant={"outline"}>
