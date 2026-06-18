@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button"
-import { Setting06FreeIcons, Setting06Icon, Setting07Icon, SettingDone01FreeIcons, SettingDone04FreeIcons } from "@hugeicons/core-free-icons"
+import { Setting06FreeIcons, Setting06Icon, Setting07Icon, SettingDone01FreeIcons, SettingDone04FreeIcons, User02FreeIcons } from "@hugeicons/core-free-icons"
 import { HugeiconsIcon } from "@hugeicons/react"
 import {
   DropdownMenu,
@@ -24,9 +24,13 @@ export default function Page() {
             <p className="text-md">A modern video window is under development.</p>
             <p className="text-sm text-[#a1a1a1]">It will be released soon on July 6, 2026.</p>
           </div>
+          <div className="flex items-center gap-4">
+<Button className="" variant={'outline'}>Getting Started</Button>
+<Button className="" variant={'outline'}>Contact Sale</Button>
+          </div>
           <DropdownMenu>
             <DropdownMenuTrigger asChild>
-              <Button variant="ghost" size={'icon-lg'}><HugeiconsIcon icon={Setting07Icon} size={'30'} strokeWidth={2} /></Button>
+              <Button variant="ghost" className="size-1.5" size={'icon-lg'}><HugeiconsIcon icon={User02FreeIcons} size={'30'} strokeWidth={2} /></Button>
             </DropdownMenuTrigger>
             <DropdownMenuContent className="w-40" align="end">
               <DropdownMenuGroup>
