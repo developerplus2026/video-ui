@@ -21,8 +21,8 @@ export default function Page() {
       <div className="w-[calc(100vw-200px)] border border-input rounded-xl bg-[#0c0c0c] h-[calc(100vh-80px)]  ">
         <div className="h-15 w-full border-b flex justify-between items-center p-6 border-input ">
           <div className="flex flex-col ">
-            <p className="text-md">A modern video window is under development.</p>
-            <p className="text-sm text-[#a1a1a1]">It will be released soon on July 6, 2026.</p>
+            <p className="text-sm">A modern video window is under development.</p>
+            <p className="text-xs text-[#a1a1a1]">It will be released soon on July 6, 2026.</p>
           </div>
           <div className="flex items-center gap-4">
 <Button className="" variant={'outline'}>Getting Started</Button>
