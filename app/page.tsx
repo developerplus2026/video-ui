@@ -25,7 +25,7 @@ export default function Page() {
       <DropdownMenuTrigger asChild>
         <Button variant="outline"><HugeiconsIcon icon={Setting07Icon} strokeWidth={2} /></Button>
       </DropdownMenuTrigger>
-      <DropdownMenuContent className="w-40" align="start">
+      <DropdownMenuContent className="w-40" align="end">
         <DropdownMenuGroup>
           <DropdownMenuLabel>My Account</DropdownMenuLabel>
           <DropdownMenuItem>
